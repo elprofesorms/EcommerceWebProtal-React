@@ -22,6 +22,7 @@ code {
 }
 .flex-grid .img-wrapper img {
   border-radius: 10px;
+  
 }
 .flex-grid .content-data {
   margin: 20px;
@@ -33,12 +34,13 @@ code {
   display: flex;
 }
 .categories .filter {
-  width: 22%;
-  padding-left: 30px;
+/*   width: 22%;
+  padding-left: 30px; */
+  background: 22% 30px;
 }
 .category-type {
   width: 80%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 .checkbox-filter {
   font-size: 1rem;
@@ -48,4 +50,5 @@ code {
   padding: 0px 20px 30px;
   display: inline-block;
   font-size: 2.5rem;
+  height:3.3rem;
 }
